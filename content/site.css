@@ -1,0 +1,521 @@
+
+
+.erkekkadin .sutun {
+    padding: 0px;
+    height: 300px;
+    overflow: hidden;
+}
+.erkekkadin .sutun a {
+    width: 100%;
+}
+.erkekkadin .sutun a img {
+    width: 100%;
+    position: absolute;
+    min-height: 300px;
+    z-index: 0;
+}
+.erkekkadin .sutun a h5 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 100px;
+    text-shadow: 0 0 15px #00000060;
+    transition: 0.3s;
+}
+.erkekkadin .sutun a:hover h5 {
+    transition: 0.3s;
+    top: 15%;
+    text-shadow: 0 0 15px #000000;
+    letter-spacing: -1px
+    
+}
+/*---------------------------------------------------------------------------------*/
+* {
+    outline: 0 !important
+ }
+ 
+body{
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.homePageContainer{
+    min-height: 100vh;
+    padding-top: 8vh;
+    background-color:#CCCAC3;
+}
+.homePageContainer h2, .homePageContainer h3{
+    text-align: center;
+}  
+.mainheader{
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 22222222;
+    height: 8vh;
+   
+    position: fixed;
+    background-color: whitesmoke;
+}
+
+.indexPageContainer{
+    min-height: 100vh;
+    padding-top: 8vh;
+   
+    background-image: url("../assets/img/6.jpg") ;
+    background-size: contain;
+}
+.selectionArea {
+    height: 92vh;
+    overflow: hidden;
+}
+.selectionArea img {
+   /* min-width: 80%;*/
+   width: 70%;
+   height:92vh;
+    
+}
+.mainfooter{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.mainfooter a{
+    float: right;
+}
+
+/*----------product-info---------*/
+.slide {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.slide img{
+    height: 100%;
+}
+.productinfoPageContainer{
+    min-height: 100vh;
+    padding-top: 6vh;
+    background-color:#dfddd5;
+}
+.productPageContainer h3, .productPageContainer h5{
+    text-align: left;
+}
+.product-urun-detay p{
+    font-size: 20px;
+}
+.product-urun-detay .aa{
+    width: 400px;
+    height: 40px;
+}
+.product-info-right .baslik {
+   font-size: 20px;
+}
+.sizeBttns {
+    list-style: none;
+    padding: 0px;
+}
+.sizeBttns li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px #ddd solid;
+}
+.sizeBttns .active {
+    font-weight: bolder;
+}
+.sizeBttns li:hover {
+    border: 1px #000 solid;
+}
+.colorBttns {
+    list-style: none;
+    padding: 0px;
+    
+        
+}
+.colorBttns li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px #ddd solid;
+}
+.colorBttns .active {
+   border: 2px black solid
+    
+}
+.colorBttns li:hover {
+    border: 1px #000 solid;
+}
+.bedenSecDropDown{
+    width: 100%;
+  
+}
+.sepeteAtBtn{
+    width: 100%;
+    background-color: #545b62;
+    border-color: #4e555b;
+    color:whitesmoke
+    
+}
+.adetBox{
+    width: 50px;
+    height: 25px;
+    margin-left: -15px;
+    background-color:#e7e2db;
+    color:black
+}
+/*--------------------------*//*----------product-info---------*/
+.slide {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.slide img{
+    height: 100%;
+}
+.productinfoPageContainer{
+    min-height: 100vh;
+    padding-top: 6vh;
+    background-color:#dfddd5;
+}
+.productPageContainer h3, .productPageContainer h5{
+    text-align: left;
+}
+.product-urun-detay p{
+    font-size: 20px;
+}
+.product-urun-detay .aa{
+    width: 400px;
+    height: 40px;
+}
+.product-info-right .baslik {
+   font-size: 20px;
+}
+.sizeBttns {
+    list-style: none;
+    padding: 0px;
+}
+.sizeBttns li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px #ddd solid;
+}
+.sizeBttns .active {
+    font-weight: bolder;
+}
+.sizeBttns li:hover {
+    border: 1px #000 solid;
+}
+.colorBttns {
+    list-style: none;
+    padding: 0px;
+    
+        
+}
+.colorBttns li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px #ddd solid;
+}
+.colorBttns .active {
+   border: 2px black solid
+    
+}
+.colorBttns li:hover {
+    border: 1px #000 solid;
+}
+.bedenSecDropDown{
+    width: 100%;
+  
+}
+.sepeteAtBtn{
+    width: 100%;
+    background-color: #545b62;
+    border-color: #4e555b;
+    color:whitesmoke
+    
+}
+.adetBox{
+    width: 50px;
+    height: 25px;
+    margin-left: -15px;
+    background-color:#e7e2db;
+    color:black
+}
+/*--------------------------*/
+
+
+
+
+/*---------LOGİN FORM-------*/
+.loginPageContainer{
+    min-height: 100vh;
+    padding-top: 8vh;
+    background-image: url("../assets/img/1.jpg")
+}
+.loginRow .loginBox{
+    margin-top: 70px;
+    box-shadow: #000;
+    color: #AC101D
+}
+.uyeOlBtn{
+    width: 50%;
+    float: right;
+    background-color:#4B4B4B;
+    color:#C9C5C6
+ 
+}
+.loginGirisBtn{
+    width: 50%;
+    float:right;
+    background-color: #fff;
+}
+.form-control:focus {
+    box-shadow: none;
+    border:none;
+}
+/*---------------------------*/
+
+
+
+
+/*---------register FORM-------*/
+.registerPageContainer{
+    min-height: 100vh;
+    padding-top: 8vh;
+    background-image:url("../assets/img/8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.passwordForgot{
+    padding-top: 20vh;
+
+}
+.loginRow .loginBox{
+    margin-top: 70px;
+    box-shadow: #000;
+    color: #AC101D
+}
+
+/*---------------------------*/
+
+
+
+/*---------profil FORM-------*/
+.passwordDegistir div h6{
+    text-align: left;
+}
+.degistirBtn a{
+    width:48%;
+    text-align: left;
+    text-align: center;
+}
+
+.cinsiyetText{
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+
+  }
+.kisiselBilgBtn{
+  width:48%;
+  text-align: center;
+  background-color: #444345;
+  color:whitesmoke
+
+}
+.profilePageContainer{
+  min-height: 100vh;
+  padding-top: 8vh;
+  background-image:url("../assets/img/6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 
+}
+
+.profileCardHeader{
+    background-color: #495057
+}
+.profileCardHeader  .nav-link{
+  color:whitesmoke;
+  }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+background-color:#2D3237;
+}
+.btn-info {
+  color: #fff;
+  background-color: #2D3237;
+  border-color: #2D3237;
+}
+.nameDiv{
+  background-color: #323232;
+  color:whitesmoke;
+  border-radius: 10px;
+
+}
+.nameDiv h3{
+  color:whitesmoke;
+}
+
+.sprsDetay{
+    padding-top: 5vh
+}
+/*---------------------------*/
+
+
+
+/*------card-html-----------*/
+.SepetHeader{
+    border: solid 1px black;
+}
+
+#verticle{
+    width: 2px;
+    height: 100%;
+   background-color:black;
+    
+}
+.totalTable{
+    text-align: right;
+    float:right;
+    
+}
+.totalTable div{
+    text-align: right;
+    
+}
+.totalTable .ortala{
+    text-align: center;
+}
+.card-text{
+    font-size:12px;
+}
+.card-title{
+    font-size:15px;
+}
+.sepetUrunBslk thead {
+    background-color: #444345;
+    color: whitesmoke;
+}
+.sepetUrunBslk tbody {
+    background-color: #DBDBDB;
+}
+.cardsColor .card-body{
+    background-color: #444345;
+    color:whitesmoke
+}
+.odemeBtn{
+    width:50%;
+    background-color: #545b62;
+    border-color: #4e555b;
+    color:whitesmoke
+    
+}
+/*--------------------------*/
+
+/*----------product html---------*/
+.productsPageContainer{
+    min-height: 77vh;
+    padding-top: 8vh;
+}
+.productsPageContainer .row{
+   margin:0
+}
+.slider .carousel-inner  h1{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    color:whitesmoke;
+    font-weight: bolder;
+    font-weight: 200px;
+    text-shadow: 0 0 15px #00000060;
+    transition: 0.3s;
+}
+.slider .carousel-inner{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.kategoriler{
+    list-style: none;
+    padding: 0;
+}
+.kategoriler li {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+}
+.kategoriler li ul {
+    padding: 0px 0px 0px 10px;
+}
+.kategoriler li ul li {
+    font-weight: lighter;
+    background: #fff;
+    transition: 0.3s;
+    padding: 3px 3px;
+    border-bottom: 1px #ddd solid;
+    font-size: 14px;
+}
+.kategoriler li ul li:last-child {
+    border-bottom: none;
+}
+.kategoriler li a {
+    color: #323232
+}
+.kategoriler li:hover a {
+    color: #000;
+    text-decoration: none;
+}
+.kategoriler li ul li:hover {
+    transition: 0.3s; 
+    background: #ddd;
+    padding: 2px 3px 2px 5px;
+}
+.productCards {
+  padding-top: 9vh;
+  max-width: 100%;
+  
+}
+.productCards2 {
+    padding-top: 9vh;
+    max-width: 100%;
+   
+}
+
+/********************/
+#search{
+    width: 70%;
+}
+.searchBtn{
+    background-color: #444345;
+    border-color: #444345;
+ 
+}
+.searchBtn:hover{
+    background-color: #444345;
+    border-color: #444345;
+  
+}
+.searchBtn.active{
+    background-color: #444345;
+    border-color: #444345;
+  
+}
