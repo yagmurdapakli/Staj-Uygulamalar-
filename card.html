@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sepetim</title>
+    
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="content/site.css">
+  <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.theme.default.min.css">
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="Scripts/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="assets/OwlCarousel/dist/owl.carousel.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script>
+   $(document).ready(function(){
+
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:2
+        }
+    }
+    });
+  });
+  </script>
+</head>
+<body>
+<header class="mainheader">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="HomePage.html">Erkek</a>
+        
+            <a class="navbar-brand" href="HomePage.html">Kadın</a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Menü"><span class="fa fa-bars"></span></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <!--boşluk bırakması iiçin -->
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="search.html">
+                        <span class="fa fa-search mr-2"></span>
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="card.html">
+                        <span class="fa fa-shopping-cart mr-2"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Profile.html">
+                        <span class="fa fa-user mr-2"></span>
+                    </a>
+                </li>
+                  
+            </ul>
+        </div>
+    </nav>
+</header>
+
+  <div class= "container-fluid homePageContainer" >
+    <div class="row pt-3">
+      <div class="col-md-9 col-xs-12 ">
+        <h1 class=" display-5 ">Sepetim</h1><hr>
+        <div class="table-responsive ">
+            <table class="table table-border table-hover sepetUrunBslk">
+                <thead class="">
+                <tr>
+                  <th class="col" >
+                    <div class="p-2 px-3 text-uppercase ">Ürün</div>
+                  </th>
+                  <th class="col" >
+                    <div class="py-2 text-uppercase">Fiyat</div>
+                  </th>
+                  <th class="col" >
+                    <div class="py-2 text-uppercase">Renk</div>
+                  </th>
+                  <th class="col" >
+                    <div class="py-2 text-uppercase">Sil</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" class="">
+                    <div class="p-2">
+                      <img src="https://res.cloudinary.com/mhmd/image/upload/v1556670479/product-1_zrifhn.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                      <div class="ml-3 d-inline-block align-middle">
+                        <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">Timex Unisex Originals</a></h5><span class="text-muted font-weight-normal font-italic d-block">Category: Watches</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="align-middle"><strong>$79.00</strong></td>
+                  <td class="align-middle">
+                  <span class="basketProdColor" style="background-color: brown"></span>
+                </td>
+                  <td class=" align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <div class="p-2">
+                      <img src="https://res.cloudinary.com/mhmd/image/upload/v1556670479/product-3_cexmhn.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                      <div class="ml-3 d-inline-block align-middle">
+                        <h5 class="mb-0"><a href="#" class="text-dark d-inline-block">Lumix camera lense</a></h5><span class="text-muted font-weight-normal font-italic">Category: Electronics</span>
+                      </div>
+                    </div>
+                  </th>
+                  <td class="align-middle"><strong>$79.00</strong></td>
+                  <td class=" align-middle">
+                    <span class="basketProdColor" style="background-color: brown"></span>
+                  </td>
+                  <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <div class="p-2">
+                      <img src="https://res.cloudinary.com/mhmd/image/upload/v1556670479/product-2_qxjis2.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                      <div class="ml-3 d-inline-block align-middle">
+                        <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block">Gray Nike running shoe</a></h5><span class="text-muted font-weight-normal font-italic">Category: Fashion</span>
+                      </div>
+                    </div>
+                    </th>
+                    <td class="align-middle"><strong>$79.00</strong></td>
+                    <td class=" align-middle">
+                      <span class="basketProdColor" style="background-color: #432433"></span>
+                    </td>
+                    <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr>
+                
+              </tbody>
+            </table>
+        </div>
+        <div class="col-5 totalTable " >
+          <div class="row ">
+            <div class="col-6 ">Toplam Tutar:</div>
+            <div class="col-1"><div id="verticle"></div></div>
+            <div class="col-4 ortala">$79.00</div>
+            <div class="col-1"><div id="verticle"></div></div>
+          </div>
+          <div class="row  ">
+            <div class="col-6">Kargo Ücreti:</div>
+            <div class="col-1"><div id="verticle"></div></div>
+            <div class="col-4 ortala">$79.00</div>
+            <div class="col-1"><div id="verticle"></div></div>
+          </div>
+            <div class="row ">
+              <div class="col-6">Toplam Ücreti:</div>
+              <div class="col-1"><div id="verticle"></div></div>
+              <div class="col-4 ortala">$79.00</div>
+              <div class="col-1"><div id="verticle"></div></div>
+            </div><hr>
+            <div class="row ">
+              <div class="col">
+                <button type="" class="btn btn-warning btn-md odemeBtn">Ödeme Yap</button>
+              </div>
+            </div>
+        </div>
+     </div>
+      <div class="col-md-3 col-xs-12 pt-3 sizinİcin">
+          <h3 class="display-5">Sizin İçin Seçtiklerimiz</h3><hr>
+          <div class="owl-carousel owl-theme ">
+          <div class="item"><h4><div class="card cardsColor ">
+                  <img src="https://static.zara.net/photos///2019/I/0/1/p/2753/227/505/2/w/1024/2753227505_1_1_1.jpg?ts=1566311639833" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <p class="card-text">SUNİ DERİ KÜRK</p><hr>
+                    <p class="card-title">149.99</p>
+                    <div class="row ">
+                    <select class="custom-select-secondary custom-select-sm bedenSecDropDown">
+                      <option selected>Beden Seçiniz</option>
+                      <option value="1" >XS</option>
+                      <option value="2">S</option>
+                      <option value="3">M</option>
+                      <option value="1">L</option>
+                      <option value="2">XL</option>
+                    </select>
+                  </div>
+                    <div class=" row  pt-2"> 
+                        <button type="button" class="btn btn-secondary  btn-sm sepeteAtBtn ">Sepete At</button>
+                    </div>  
+                  </div>
+          </div></h4></div>
+          <div class="item"><h4> <div class="card cardsColor ">
+              <img src="https://static.zara.net/photos///2019/I/0/1/p/2753/227/505/2/w/1024/2753227505_1_1_1.jpg?ts=1566311639833" class="card-img-top" alt="...">
+              <div class="card-body ">
+              <p class="card-text">SUNİ DERİ KÜRK</p><hr>
+                <p class="card-title">149.99</p>
+                <div class="row ">
+                    <select class="custom-select-secondary custom-select-sm bedenSecDropDown">
+                      <option selected>Beden Seçiniz</option>
+                      <option value="1">XS</option>
+                      <option value="2">S</option>
+                      <option value="3">M</option>
+                      <option value="1">L</option>
+                      <option value="2">XL</option>
+                    </select>
+                  </div>
+                <div class=" row  pt-2"> 
+                    <button type="button" class="btn btn-secondary  btn-sm sepeteAtBtn ">Sepete At</button>
+                </div>  
+              </div>
+            </div></h4></div>
+          <div class="item"><h4> <div class="card cardsColor">
+              <img src="https://static.zara.net/photos///2019/I/0/1/p/2753/227/505/2/w/1024/2753227505_1_1_1.jpg?ts=1566311639833" class="card-img-top" alt="...">
+              <div class="card-body ">
+              <p class="card-text">SUNİ DERİ KÜRK</p><hr>
+                <p class="card-title">149.99</p>
+                <div class="row ">
+                    <select class="custom-select-secondary custom-select-sm bedenSecDropDown">
+                      <option selected>Beden Seçiniz</option>
+                      <option value="1">XS</option>
+                      <option value="2">S</option>
+                      <option value="3">M</option>
+                      <option value="1">L</option>
+                      <option value="2">XL</option>
+                    </select>
+                  </div>
+                <div class=" row  pt-2"> 
+                    <button type="button" class="btn btn-secondary  btn-sm sepeteAtBtn ">Sepete At</button>
+                </div>  
+              </div>
+            </div></h4></div>
+          <div class="item"><h4> <div class="card cardsColor">
+              <img src="https://static.zara.net/photos///2019/I/0/1/p/2753/227/505/2/w/1024/2753227505_1_1_1.jpg?ts=1566311639833" class="card-img-top" alt="...">
+              <div class="card-body ">
+              <p class="card-text">SUNİ DERİ KÜRK</p><hr>
+                <p class="card-title">149.99</p>
+                <div class="row ">
+                    <select class="custom-select-secondary custom-select-sm bedenSecDropDown">
+                      <option selected>Beden Seçiniz</option>
+                      <option value="1">XS</option>
+                      <option value="2">S</option>
+                      <option value="3">M</option>
+                      <option value="1">L</option>
+                      <option value="2">XL</option>
+                    </select>
+                  </div>
+                <div class=" row pt-2"> 
+                    <button type="button" class="btn btn-secondary  btn-sm sepeteAtBtn ">Sepete At</button>
+                </div>  
+              </div>
+            </div></h4></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+     
+  <footer class="mainfooter">
+    <div class="card card-default  ">
+      <div class="card-footer ">  
+        <div class="col mainfooter">
+          <a href="#" class="btn text-primary">
+              <span class="fa fa-twitter fa-2x"></span>
+          </a>
+          <a href="#" class="btn text-danger">
+              <span class="fa fa-instagram fa-2x"></span>
+          </a>
+          <a href="#" class="btn text-primary">
+              <span class="fa fa-facebook fa-2x"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>   
+</body>
+</html>
